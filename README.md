@@ -1,12 +1,12 @@
 # 拾回 / 时光整理 Android Demo
 
-拾回是一个本地优先的智能相册整理 Android Demo。项目从个人系统相册分类不合理、整理不方便的真实问题出发，通过 vibe coding 的方式完成需求拆解、Android 原生开发、真机调试和作品集复盘。
+拾回是一个本地优先的智能相册整理 Android Demo。项目从个人系统相册分类不合理、整理不方便的真实问题出发，通过 vibe coding 的方式完成需求拆解、Android 原生开发、真机调试和项目复盘。
 
 当前工程内 App 名称为“时光整理”，包名为 `com.example.phototidy`。
 
 ## 当前定位
 
-这是一个用于作品集展示和真机验证的高保真 Demo，不是生产环境可直接上架的软件。
+这是一个用于本地验证和阶段演示的高保真 Demo，不是生产环境可直接上架的软件。
 
 它重点展示：
 
@@ -26,7 +26,7 @@ release/photo-tidy-demo-debug.apk
 
 说明：
 
-- 这是 Debug APK，仅用于本地体验和作品集演示。
+- 这是 Debug APK，仅用于本地体验和功能演示。
 - APK 体积较大，主要因为包含 Android 依赖和 ML Kit 相关能力。
 - 上传 GitHub 时建议通过 Git LFS 或 GitHub Release 管理 APK。
 
@@ -172,12 +172,12 @@ $adb='C:\Users\Administrator\AppData\Local\Android\Sdk\platform-tools\adb.exe'
 
 ## 截图说明
 
-本地开发过程中使用了真机截图验证页面，但截图包含真实相册内容和个人照片，因此不随公开仓库上传。作品集展示时建议使用经过脱敏处理的截图或重新制作的演示数据截图。
+本地开发过程中使用了真机截图验证页面，但截图包含真实相册内容和个人照片，因此不随公开仓库上传。对外展示或评审时建议使用经过脱敏处理的截图或重新制作的演示数据截图。
 
 ## 文档
 
 - [技术路线](docs/技术路线.md)
-- [项目交接说明](docs/项目交接说明.md)
+- [需求文档](docs/需求文档.md)
 - [当前状态与边界](docs/CURRENT_STATUS.md)
 - [第三方引用说明](docs/THIRD_PARTY_NOTICES.md)
 
