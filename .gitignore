@@ -1,0 +1,26 @@
+*.iml
+.gradle
+.kotlin/
+/local.properties
+/.idea/
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Local verification screenshots and temporary UI captures.
+/home-*.png
+/screen-*.png
+/window.xml
+
+# Keep curated screenshots under docs/screenshots.
+!/docs/screenshots/
+!/docs/screenshots/*.png
